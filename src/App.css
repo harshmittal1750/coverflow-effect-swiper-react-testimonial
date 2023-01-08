@@ -1,0 +1,82 @@
+body {
+  background-color: #000000;
+}
+.main {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* height: 100vh; */
+  margin-top: 10%;
+}
+
+.mySwiper {
+  width: 80%;
+}
+
+.swiper-slide {
+  width: 200px;
+  background-color: transparent;
+  border-radius: 10px;
+  background-size: cover;
+  /* border: 1px solid white; */
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  /* background-image: url(./assets/slideBG.png); */
+  color: #ffffff;
+}
+.testimonials-profile-circle {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #1d8ba0;
+  border-radius: 50%;
+}
+.review-by {
+  color: #1d8ba0;
+  font-size: 18px;
+}
+.head {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+.head-p {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  border: 2px solid #1d8ba0 !important;
+  /* padding: 1px !important; */
+  border-radius: 1px !important;
+  /* padding-left: 5px !important; */
+  width: 30px !important;
+  height: 1px !important;
+  /* padding-right: 5px !important; */
+}
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  border: 2px solid #1d8ba0 !important;
+  /* padding: 1px !important; */
+  border-radius: 1px !important;
+  /* padding-left: 5px !important; */
+  width: 30px !important;
+  height: 1px !important;
+  /* padding-right: 5px !important; */
+}
